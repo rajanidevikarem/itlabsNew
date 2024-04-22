@@ -10,13 +10,9 @@ export default function Modal() {
     return (
         <>
             <div className="flex items-center justify-center">
-                <button
-                  className= 'text-black px-16 py-4 rounded-2xl my-5 bg-lime-500 font-bold'
-                    type="button"
-                    onClick={() => setShowModal(true)}
-                >
-                    Apply Now
-                </button>
+            <button className= 'text-center text-black px-6 py-3 rounded-lg my-5 bg-lime-500 font-medium'  type="button"
+                    onClick={() => setShowModal(true)}> Apply Now</button>
+               
             </div>
             {showModal && (
                 <div className="fixed inset-0 z-10 overflow-y-auto text-black">
