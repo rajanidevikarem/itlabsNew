@@ -1,3 +1,8 @@
+*
+{
+  margin:0;
+  padding:0;
+}
 .itlabs
 {
   background-color:#090909 ;
@@ -15,4 +20,14 @@
 {
   background-color: #16111C;
   border:1px solid #644091;
+}
+@media (max-width: 448px)
+{
+  .nav-m{
+    background-color: #090909 ;
+  }
+  ul.nav-m
+  {
+    text-align: center;
+  }
 }
