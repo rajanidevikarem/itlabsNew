@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from 'react';
-import { NavLink } from 'react-router-dom'; // Import NavLink from react-router-dom
+import { NavLink,Link } from 'react-router-dom'; // Import NavLink from react-router-dom
 
 import logo from '../images/itlabs_logo.png';
 
@@ -45,7 +45,7 @@ const Navbar = () => {
         <div className={`shadow-md w-full fixed top-0 left-0  z-20 ${scrolled ? 'bg-[#090909]' : ''}`}>
             <div className='md:flex items-center justify-between py-4 text-white md:px-28 px-7 z-20 nav-m'>
                 <div className='font-bold text-2xl cursor-pointer flex items-center font-[inter] text-gray-800'>
-                    <img src={logo} alt="logo" className="logo" />
+                <Link to="/home" > <img src={logo} alt="logo" className="logo" /></Link>
                 </div>
 
                 <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>

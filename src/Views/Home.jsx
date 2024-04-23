@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom';
 const Home = () => {
   return (
     <div className='w-full leading-loose'>
@@ -11,7 +11,7 @@ const Home = () => {
       <h1 className='font-medium my-5 mx-auto text-white text-3xl lg:text-5xl py-2 text-center lg:leading-normal'>Empower your business with the right 
       <br/>IT talent and technology.</h1>
       <div className='text-center'>
-      <Link to="/Services " className='text-white px-4'><button className= 'text-center text-black px-6 py-3 rounded-lg my-5 bg-lime-500 font-medium'>Explore Our Services</button></Link>
+      <Link to="/Services" className='text-white px-4'><button className= 'text-center text-black px-6 py-3 rounded-lg my-5 bg-lime-500 font-medium'>Explore Our Services</button></Link>
 
 </div>
      </div>
